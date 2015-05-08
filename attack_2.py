@@ -23,7 +23,7 @@ targets = [ {'galaxy': 1, 'system': 36, 'position': 5},
 
 speed = Speed['100%']
 mission = Missions['Attack']
-#1 hour
+#2 hours
 for target in targets:
     ships = ogame.get_ships(planet)
     if ships.get('SmallCargo') > 0:
