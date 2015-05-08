@@ -2,7 +2,7 @@ import json
 from ogame import OGame
 from ogame.constants import Ships, Speed, Missions, Buildings, Research, Defense
 
-with open('config.json') as data_file:    
+with open('/root/ogame/config.json') as data_file:    
 	data = json.load(data_file)
     
   
@@ -23,7 +23,7 @@ targets = [ {'galaxy': 1, 'system': 33, 'position': 3},
 
 speed = Speed['100%']
 mission = Missions['Attack']
-
+#1 hour
 for target in targets:
     ships = ogame.get_ships(planet)
     if ships.get('SmallCargo') > 0:
