@@ -1,7 +1,9 @@
 # m h  dom mon dow   command
 0 6 * * * /etc/init.d/ogame_resources.sh
+#1h
 0 10 * * * /etc/init.d/ogame_attack_1.sh
+#2h
+5 11 * * * /etc/init.d/ogame_attack_2.sh
 #weekly
 0 16 * * 0-6 /etc/init.d/ogame_resources.sh
 0 22 * * 0-6 /etc/init.d/ogame_resources.sh
-0 */6 * * 0-6 /etc/init.d/ogame_defense.sh
