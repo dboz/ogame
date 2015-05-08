@@ -2,7 +2,7 @@ import json
 from ogame import OGame
 from ogame.constants import Ships, Speed, Missions, Buildings, Research, Defense
 
-with open('config.json') as data_file:    
+with open('/root/ogame/config.json') as data_file:    
 	data = json.load(data_file)
     
   
