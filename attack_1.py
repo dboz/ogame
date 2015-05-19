@@ -25,9 +25,7 @@ speed = Speed['100%']
 mission = Missions['Attack']
 #1 hour
 for target in targets:
-    ships = ogame.get_ships(planet)
-    if ships.get('SmallCargo') > 0:
-        ogame.send_fleet(planet, [(Ships['SmallCargo'], 50)], speed, target, mission, {})
+    ogame.send_fleet(planet, [(Ships['SmallCargo'], 50)], speed, target, mission, {})
 
 
 
