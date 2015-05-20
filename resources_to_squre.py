@@ -10,7 +10,7 @@ ogame = OGame(data['uni'], data['user'], data['password'], data['server'])
 
 
 planets = [33768686, 33760444, 33760299]
-where = {'galaxy': 1, 'system': 33, 'position': 4}
+where = {'galaxy': 1, 'system': 33, 'position': 4} #to scure
 speed = Speed['100%']
 mission = Missions['Transport']
 
@@ -21,17 +21,10 @@ for planet_id in planets:
 		resources = {'metal': current_resources.get('metal'), 'crystal': current_resources.get('crystal'), 'deuterium': current_resources.get('deuterium')}
 		ogame.send_fleet(planet_id, [(Ships['LargeCargo'], ships.get('LargeCargo'))], speed, where, mission, resources)
 
+#Move resources from hikol to squre
 
-planets = [33763767, 33771927, 33777076]
-where = {'galaxy': 2, 'system': 333, 'position': 8}
-speed = Speed['100%']
-mission = Missions['Transport']
-
-for planet_id in planets:
-	current_resources = ogame.get_resources(planet_id)
-	ships = ogame.get_ships(planet_id)
-	if ships.get('LargeCargo') > 0:
-		resources = {'metal': current_resources.get('metal'), 'crystal': current_resources.get('crystal'), 'deuterium': current_resources.get('deuterium')}
-		ogame.send_fleet(planet_id, [(Ships['LargeCargo'], ships.get('LargeCargo'))], speed, where, mission, resources)
-
+planet_id = 33763525
+current_resources = ogame.get_resources(planet_id)
+resources = {'metal': current_resources.get('metal'), 'crystal': current_resources.get('crystal'), 'deuterium': current_resources.get('deuterium')}
+ogame.send_fleet(planet_id, [(Ships['LargeCargo'], 500)], speed, where, mission, resources)
 		
