@@ -16,4 +16,4 @@ for planet in planets:
 	ogame.build(planet, (Defense['IonCannon'], 20))
 	ogame.build(planet, (Defense['HeavyLaser'], 100))
 	ogame.build(planet, (Defense['LightLaser'], 200))
-	ogame.build(planet, (Defense['RocketLauncher'], 800))
+	ogame.build(planet, (Defense['RocketLauncher'], 1500))
