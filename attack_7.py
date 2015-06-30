@@ -10,7 +10,7 @@ ogame = OGame(data['uni'], data['user'], data['password'], data['server'])
 
 
 planet = 33759952
-targets = [ {'galaxy': 1, 'system': 7, 'position': 4},
+targets = [ #{'galaxy': 1, 'system': 7, 'position': 4},
             {'galaxy': 1, 'system': 7, 'position': 5},
             {'galaxy': 1, 'system': 7, 'position': 8},
             {'galaxy': 1, 'system': 6, 'position': 7},
