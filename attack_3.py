@@ -13,7 +13,7 @@ planet = 33759952
 targets = [ {'galaxy': 1, 'system': 31, 'position': 4},
             {'galaxy': 1, 'system': 31, 'position': 6},
             {'galaxy': 1, 'system': 31, 'position': 8},
-            {'galaxy': 1, 'system': 30, 'position': 8},
+            #{'galaxy': 1, 'system': 30, 'position': 8},
             {'galaxy': 1, 'system': 29, 'position': 5},
             {'galaxy': 1, 'system': 29, 'position': 7},
             {'galaxy': 1, 'system': 29, 'position': 13},
