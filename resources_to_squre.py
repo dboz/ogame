@@ -8,8 +8,7 @@ with open('/root/ogame/config.json') as data_file:
   
 ogame = OGame(data['uni'], data['user'], data['password'], data['server'])
 
-
-planets = [33768686, 33760444, 33760299]
+planets = [33768686, 33760444, 33760299, 33790348]
 where = {'galaxy': 1, 'system': 33, 'position': 4} #to scure
 speed = Speed['100%']
 mission = Missions['Transport']
