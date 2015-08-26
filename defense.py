@@ -12,8 +12,8 @@ planets = [33759952, 33763525]
 
 for planet in planets:
 	ogame.build(planet, (Defense['PlasmaTurret'], 50))
-	ogame.build(planet, (Defense['GaussCannon'], 20))
-	ogame.build(planet, (Defense['IonCannon'], 20))
-	ogame.build(planet, (Defense['HeavyLaser'], 100))
-        #ogame.build(planet, (Defense['LightLaser'], 200))
-	#ogame.build(planet, (Defense['RocketLauncher'], 1500))
+	ogame.build(planet, (Defense['GaussCannon'], 60))
+	ogame.build(planet, (Defense['IonCannon'], 40))
+	ogame.build(planet, (Defense['HeavyLaser'], 300))
+        ogame.build(planet, (Defense['LightLaser'], 500))
+	ogame.build(planet, (Defense['RocketLauncher'], 1500))
