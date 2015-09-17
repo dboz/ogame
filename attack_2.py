@@ -18,8 +18,8 @@ targets = [ {'galaxy': 1, 'system': 36, 'position': 5},
             {'galaxy': 1, 'system': 40, 'position': 12},
             {'galaxy': 1, 'system': 43, 'position': 6},
             {'galaxy': 1, 'system': 44, 'position': 5},
-            {'galaxy': 1, 'system': 45, 'position': 4},
-            {'galaxy': 1, 'system': 47, 'position': 11},]
+            {'galaxy': 1, 'system': 45, 'position': 4},]
+            #{'galaxy': 1, 'system': 47, 'position': 11},]
 
 speed = Speed['100%']
 mission = Missions['Attack']
