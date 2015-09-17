@@ -10,16 +10,16 @@ ogame = OGame(data['uni'], data['user'], data['password'], data['server'])
 
 
 planet = 33759952
-targets = [ {'galaxy': 1, 'system': 25, 'position': 4},
-            #{'galaxy': 1, 'system': 25, 'position': 6},
-            {'galaxy': 1, 'system': 25, 'position': 10},
-            {'galaxy': 1, 'system': 25, 'position': 12},
-            {'galaxy': 1, 'system': 24, 'position': 10},
-            {'galaxy': 1, 'system': 23, 'position': 4},
-            {'galaxy': 1, 'system': 23, 'position': 5},
+targets = [ {'galaxy': 1, 'system': 23, 'position': 5},
             {'galaxy': 1, 'system': 23, 'position': 10},
+            {'galaxy': 1, 'system': 21, 'position': 1},
             {'galaxy': 1, 'system': 21, 'position': 3},
-            {'galaxy': 1, 'system': 21, 'position': 1},]
+            {'galaxy': 1, 'system': 21, 'position': 4},
+            {'galaxy': 1, 'system': 21, 'position': 10},
+            {'galaxy': 1, 'system': 21, 'position': 11},
+            {'galaxy': 1, 'system': 19, 'position': 4},
+            {'galaxy': 1, 'system': 19, 'position': 6},
+            {'galaxy': 1, 'system': 18, 'position': 5},]
 
 speed = Speed['100%']
 mission = Missions['Attack']
