@@ -2,6 +2,7 @@ import json
 from ogame import OGame
 from ogame.constants import Ships, Speed, Missions, Buildings, Research, Defense
 import datetime
+import time
 
 with open('/root/ogame/config.json') as data_file:    
 	data = json.load(data_file)
@@ -31,8 +32,10 @@ speed = Speed['100%']
 mission = Missions['Attack']
 #2 hours
 for target in targets:
+    time.sleep(2)
     try:
+        print "Perform attack to %s %s"%(target['system'], target['position'])
         ogame.send_fleet(planet, [(Ships['SmallCargo'], 50)], speed, target, mission, {})
     except Exception, e:
-            print 'Unable to perform target %s: %s: %s' % (target['system'], target['position'], str(e))
+            print 'Unable to perform target %s %s %s' % (target['system'], target['position'], str(e))
             
