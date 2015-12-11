@@ -16,7 +16,7 @@ targets = [ {'galaxy': 1, 'system': 28, 'position': 8},
             {'galaxy': 1, 'system': 27, 'position': 11},
             {'galaxy': 1, 'system': 25, 'position': 4},
             {'galaxy': 1, 'system': 25, 'position': 9},
-            {'galaxy': 1, 'system': 25, 'position': 10},
+            #{'galaxy': 1, 'system': 25, 'position': 10},
             {'galaxy': 1, 'system': 25, 'position': 12},
             {'galaxy': 1, 'system': 24, 'position': 4},
             {'galaxy': 1, 'system': 24, 'position': 10},]
