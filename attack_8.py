@@ -25,4 +25,4 @@ speed = Speed['100%']
 mission = Missions['Attack']
 #
 for target in targets:
-    ogame.send_fleet(planet, [(Ships['SmallCargo'], 50)], speed, target, mission, {})
+    ogame.send_fleet(planet, [(Ships['SmallCargo'], 100)], speed, target, mission, {})

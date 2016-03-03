@@ -35,7 +35,7 @@ for target in targets:
     time.sleep(2)
     try:
         print "Perform attack to %s %s"%(target['system'], target['position'])
-        ogame.send_fleet(planet, [(Ships['SmallCargo'], 50)], speed, target, mission, {})
+        ogame.send_fleet(planet, [(Ships['SmallCargo'], 100)], speed, target, mission, {})
     except Exception, e:
             print 'Unable to perform target %s %s %s' % (target['system'], target['position'], str(e))
             
